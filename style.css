@@ -47,11 +47,11 @@ header a:hover {
   text-decoration: underline;
 }
 
-article {
+section {
   padding: 86px 0px 95px 30px;
 }
 
-article > p {
+section > p {
   font-family: var(--font-text);
   font-size: 3.5vw;
   font-weight: 400;
@@ -60,44 +60,44 @@ article > p {
   text-align: left;
 }
 
-.article-1,
-.article-3 {
+.section-1,
+.section-3 {
   background-color: rgb(255, 255, 255);
   height: 54vw;
 }
 
-.article-2,
-.article-4 {
+.section-2,
+.section-4 {
   background: black url(imagens/background001.jpg) right center fixed;
   background-size: cover;
   box-shadow: 2px 3px 10px #00000082 inset;
   color: white;
 }
 
-article.article-2 {
+section.section-2 {
   height: 52vw;
 }
 
-.article-2 > p,
-.article-4 > p {
+.section-2 > p,
+.section-4 > p {
   border: 1px solid black;
   background-color: rgba(0, 0, 0, 0.501);
 }
 
-.article-2 > p {
+.section-2 > p {
   width: 41vw;
   height: 49vw;
   padding-left: 7px;
   padding-bottom: 10px;
 }
 
-.article-4 > p {
+.section-4 > p {
   width: 42.5vw;
   height: 48vw;
   padding-bottom: 10px;
 }
 
-.article-4 {
+.section-4 {
   background: black url(imagens/background002.jpg) left center fixed;
   background-size: cover;
   color: white;
