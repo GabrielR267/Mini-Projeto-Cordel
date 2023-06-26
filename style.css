@@ -82,27 +82,22 @@ section > p {
   color: white;
 }
 
-.section-2 > p,
-.section-4 > p {
-  background-color: rgba(0, 0, 0, 0.501);
-  border: 1px solid black;
-}
-
-.section-4 > p,
-.section-2 > p {
-  display: inline-block;
-}
-
 .section-4 {
   background: black url(imagens/background002.jpg) left center fixed;
   background-size: cover;
   color: white;
 }
 
+.section-2 > p,
+.section-4 > p {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.501);
+  border: 1px solid black;
+}
+
 footer {
   background-color: black;
   max-height: 100vw;
-  min-width: auto;
 }
 
 footer > p {
