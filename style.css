@@ -13,19 +13,24 @@
   padding: 0;
 }
 
-header {
-  height: 19vw;
-  max-height: 280px;
-  padding-top: 50px;
-  text-align: center;
-  background-color: rgb(0, 0, 0);
-  color: white;
+hmtl,
+body {
+  min-height: 100vh;
 }
 
-header h1 {
+header {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 15vw;
+  min-height: 65px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+header > h1 {
   font-family: var(--font-title);
   font-size: 10vw;
-  font-weight: 700;
   font-variant: small-caps;
 }
 
@@ -36,14 +41,14 @@ header > p {
   height: 20px;
 }
 
-header a {
+header > p > a {
+  color: white;
+  text-decoration: none;
   font-family: var(--font-header-text);
   font-weight: bolder;
-  text-decoration: none;
-  color: white;
 }
 
-header a:hover {
+header > p > a:hover {
   text-decoration: underline;
 }
 
@@ -57,7 +62,6 @@ section > p {
   font-weight: 400;
   line-height: 7vw;
   padding: 1px 0px 8vw 0px;
-  text-align: left;
 }
 
 .section-1,
@@ -74,14 +78,10 @@ section > p {
   color: white;
 }
 
-section.section-2 {
-  height: 52vw;
-}
-
 .section-2 > p,
 .section-4 > p {
-  border: 1px solid black;
   background-color: rgba(0, 0, 0, 0.501);
+  border: 1px solid black;
 }
 
 .section-2 > p {
@@ -110,21 +110,21 @@ footer {
 }
 
 footer > p {
+  color: white;
   font-family: var(--font-header-text);
   font-size: 1rem;
   font-weight: 400;
-  color: white;
   text-align: center;
   line-height: 15px;
   padding: 10px 15px;
 }
 
-footer p > a {
-  font-weight: 700;
+footer > p > a {
   color: white;
   text-decoration: none;
+  font-weight: 700;
 }
 
-footer p > a:hover {
+footer > p > a:hover {
   text-decoration: underline;
 }
