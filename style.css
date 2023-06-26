@@ -68,13 +68,10 @@ article > p {
 
 .article-2,
 .article-4 {
-  color: white;
-  background-color: black;
-  background-image: url(imagens/background001.jpg);
-  background-attachment: fixed;
-  background-position: right center;
+  background: black url(imagens/background001.jpg) right center fixed;
   background-size: cover;
   box-shadow: 2px 3px 10px #00000082 inset;
+  color: white;
 }
 
 article.article-2 {
@@ -87,7 +84,7 @@ article.article-2 {
   background-color: rgba(0, 0, 0, 0.501);
 }
 
-.article-2 > p{
+.article-2 > p {
   width: 41vw;
   height: 49vw;
   padding-left: 7px;
@@ -101,12 +98,9 @@ article.article-2 {
 }
 
 .article-4 {
-  background-image: url(imagens/background002.jpg);
-  background-attachment: fixed;
+  background: black url(imagens/background002.jpg) left center fixed;
   background-size: cover;
-  background-position: left center;
   color: white;
-  background-color: black;
 }
 
 footer {
